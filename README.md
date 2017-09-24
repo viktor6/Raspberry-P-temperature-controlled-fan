@@ -25,4 +25,4 @@ cd /home/pi/fan
 nano fan.sh
 
 crontab -e
-* * * * * /home/pi/fan/./fan.sh
+>  * * * * * /home/pi/fan/./fan.sh
