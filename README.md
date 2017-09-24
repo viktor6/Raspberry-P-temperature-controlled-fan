@@ -2,7 +2,7 @@
 
 https://hackernoon.com/raspberry-pi-temperature-controlled-fan-2aa0de72a564
 
-echo "2">/sys/class/gpio/export
+echo "2">/sys/class/gpio/export 
 echo "out">/sys/class/gpio/gpio2/direction
 echo "1">/sys/class/gpio/gpio2/value
 echo "0">/sys/class/gpio/gpio2/value
