@@ -9,7 +9,11 @@ Enable GPIO2: (root)
 
 >  echo "out">/sys/class/gpio/gpio2/direction
 
+Switch on GPIO Pin / Fan (root)
+
 >  echo "1">/sys/class/gpio/gpio2/value
+
+Switch off GPIO Pin / Fan (root)
 
 >  echo "0">/sys/class/gpio/gpio2/value
 
